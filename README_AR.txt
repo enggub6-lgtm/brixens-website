@@ -1,41 +1,28 @@
-BRIXENS.NET - FLAT GITHUB PACKAGE
-==================================
+BRIXENS.NET - GitHub Pages Website Package (Flat Version)
 
-Website:
-https://www.brixens.net
+هذه النسخة محسنة عن السابقة:
+- صور كاملة وعالية الدقة بدلاً من قص الشرائح العرضية القصيرة.
+- صفحات منفصلة: Home / About / Services / Industries / Partners / Contact.
+- بدون مجلد assets، جميع الملفات في الجذر ليسهل رفعها مباشرة إلى GitHub.
+- تم ضبط CNAME على: www.brixens.net
 
-Email:
-info@brixens.net
+الملفات الأساسية:
+- index.html
+- about.html
+- services.html
+- industries.html
+- partners.html
+- contact.html
+- styles.css
+- script.js
+- CNAME
+- الصور المرجعية عالية الدقة
 
-This version has NO assets folders.
-All HTML, CSS, JS, images, CNAME, and .nojekyll files are in ONE ROOT LEVEL.
-
-UPLOAD
-------
-1. Unzip this ZIP.
-2. Open your NEW GitHub repository.
-3. Add file > Upload files.
-4. Select ALL files inside the extracted folder.
-5. Drag and drop them all directly into GitHub.
-6. Commit changes.
-
-GitHub Pages:
-Settings > Pages
-Source: Deploy from a branch
-Branch: main
-Folder: /(root)
-
-Custom domain:
-www.brixens.net
-
-GoDaddy DNS:
-CNAME  www  -> YOUR-GITHUB-USERNAME.github.io
-
-A records for root brixens.net:
-@ -> 185.199.108.153
-@ -> 185.199.109.153
-@ -> 185.199.110.153
-@ -> 185.199.111.153
-
-IMPORTANT:
-Do not delete MX/TXT records used by email.
+خطوات GitHub المختصرة:
+1) افتح المستودع الجديد.
+2) احذف الملفات القديمة أو ارفع هذه الملفات واستبدل الموجود.
+3) ارفع جميع الملفات دفعة واحدة من هذا المجلد.
+4) اعمل Commit changes.
+5) في Settings > Pages اختر main و /(root).
+6) في Custom domain اكتب: www.brixens.net
+7) في GoDaddy اربط DNS مع GitHub Pages.
