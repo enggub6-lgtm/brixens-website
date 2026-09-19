@@ -1,0 +1,4 @@
+BRIXENS.NET CLEAN ROOT VERSION
+Version: 2.1
+All website files must be uploaded directly to the ROOT of the GitHub repository.
+Do not upload this folder itself.
